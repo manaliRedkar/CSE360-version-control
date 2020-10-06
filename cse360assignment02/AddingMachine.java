@@ -12,7 +12,7 @@ public static void main(String[] args) {
 }
 
   private int total;
-  public String mystr;
+  private String mystr;
   
   //Contructor:sets an initial value
   public AddingMachine () {
