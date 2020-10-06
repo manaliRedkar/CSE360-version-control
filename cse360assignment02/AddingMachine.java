@@ -3,13 +3,12 @@ package cse360assignment02;
 public class AddingMachine {
 
 public static void main(String[] args) {
-    //System.out.println("Hello World!");
     AddingMachine myCalculator = new AddingMachine();
     myCalculator.add(4);
     myCalculator.subtract(2);
     myCalculator.add(5);
     System.out.println(myCalculator.toString());
-    
+
 }
 
   private int total;
