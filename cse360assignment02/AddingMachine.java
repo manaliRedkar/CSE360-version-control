@@ -9,11 +9,13 @@ public static void main(String[] args) {
     myCalculator.subtract(2);
     myCalculator.add(5);
     System.out.println(myCalculator.toString());
+    
 }
 
   private int total;
   public String mystr;
-  //Contructor
+  
+  //Contructor:sets an initial value
   public AddingMachine () {
     total = 0;  // not needed - included for clarity
     mystr = "0" ;
@@ -44,6 +46,6 @@ public static void main(String[] args) {
 //resets the  total and the string variable
   public void clear() {
       total = 0;
-      mystr = "";
+      mystr = "0";
   }
 }
