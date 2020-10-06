@@ -11,6 +11,7 @@ public static void main(String[] args) {
 
 }
 
+
   private int total;
   private String mystr;
   
@@ -22,7 +23,7 @@ public static void main(String[] args) {
   
   //A function that returns the total value at any given point
   public int getTotal () {
-    return 0;
+    return total;
   }
   
   //Adds value and total
